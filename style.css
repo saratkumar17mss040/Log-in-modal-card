@@ -6,6 +6,7 @@
 html,body {
     height: 100%;
     font-family: 'Muli', sans-serif;
+    background-color: #E5E5E5;
 }
 
 main {
@@ -42,15 +43,6 @@ div#right-container{
 div#right-container img {
     flex-shrink: 6;
 }
-
-/* img {
-    max-width: 100%;
-    border-top-right-radius: 15px;
-} */
-
-/* div#left-container > p,input,a,button {
-    position: absolute;
-} */
 
 p#log-in-heading {
     font-family: 'Rokkitt',serif;
@@ -169,22 +161,46 @@ button.fg-button {
     padding-right: 15px;
 }
 
+a#facebook {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+a#google-anchor{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 15px;
+    width: 58px;
+    height: 49px;
+}
+
 p#facebook {
-    display: inline;
+    display: block;
+}
+
+p#google {
+    display: block;
 }
 
 button.facebook-button  {
     margin-left: 180px;
+
+}
+
+img#facebook-image {
+    margin-top: 25px;
 }
 
 button.google-button {
     margin-left: 50px;
-    
 } 
 
 p#sign-up-para {
     text-align: center;
-    margin-top: 135px;
+    margin-top: 105px;
 }
 
 div#right-container img{
