@@ -32,7 +32,7 @@ div#left-container {
 }
 
 div#right-container{
-    background-image: url('/resources/water.jpg');
+    background-image: url('resources/water.jpg');
     width: 449px;
     height: 608px;
     flex-shrink: 6;
